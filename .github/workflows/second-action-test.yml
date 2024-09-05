@@ -8,7 +8,7 @@ jobs:
     steps:
       - name: Get code
         uses: actions/checkout@v3
-      - name: Print current dir
+      - name: Print current directory
         run: pwd
       - name: Install NodeJS
         uses: actions/setup-node@v3
