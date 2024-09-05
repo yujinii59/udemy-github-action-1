@@ -35,6 +35,7 @@ jobs:
         working-directory: ${{ env.working-directory }}
       - name: Build project
         run: npm run build
+        working-directory: ${{ env.working-directory }}
       - name: Deploy
         run: echo "Deploying ..."
 
